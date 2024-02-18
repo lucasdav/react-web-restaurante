@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    <!-- Background -->
+    <rect width="200" height="200" fill="#E53935" />
+    <!-- Letter D -->
+    <path d="M50,50 L100,50 L100,150 Q100,175 75,175 L50,175 Z" fill="#FFFFFF" />
+    <!-- Letter A -->
+    <polygon points="125,50 175,50 150,125" fill="#FFFFFF" />
+    <!-- Letter V -->
+    <polygon points="60,125 100,50 140,125" fill="#FFFFFF" />
+    <!-- Letter S -->
+    <path d="M125,175 Q150,175 150,150 Q150,125 125,125 Q100,125 100,150 Q100,175 125,175 Z"
+        fill="#FFFFFF" />
+</svg>
+  
