@@ -6,6 +6,7 @@ export default function Cardapio() {
         <main>
             <nav className={styles.menu}>
                 <Logo width={100} height={100} style={{ transform: 'rotate(90deg)' }}/>
+                Davs Donuts
             </nav>
         </main>
     )
