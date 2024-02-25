@@ -17,18 +17,18 @@ export default function Filtros({ filtro, setFiltro }: Props) {
     }
 
     return (
-    <div className={styles.filtros}>
-        {filtros.map((opcao) => (
-            <button 
-                className={classNames({
-                    [styles.filtros__filtro]: true,
-                    [styles['filtros__filtro--ativo']]: filtro === opcao.id
-                })}
-                key={opcao.id} 
-                onClick={() => selecionarFiltro(opcao)}>
-                {opcao.label}
-            </button>
-        ))}
-    </div>
+        <div className={styles.filtros}>
+            {filtros.map((opcao) => (
+                <button 
+                    className={classNames({
+                        [styles.filtros__filtro]: true,
+                        [styles['filtros__filtro--ativo']]: filtro === opcao.id
+                    })}
+                    key={opcao.id} 
+                    onClick={() => selecionarFiltro(opcao)}>
+                    {opcao.label}
+                </button>
+            ))}
+        </div>
     );
 }
