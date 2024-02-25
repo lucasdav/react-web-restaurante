@@ -1,11 +1,32 @@
 import styles from './Item.module.scss';
 import cardapio from '../itens.json';
 import classNames from 'classnames';
+import { useEffect, useLayoutEffect } from 'react';
 
 type Props = typeof cardapio[0];
 
 export default function Item(props: Props) {
     const { title, description, category, size, serving, price, photo } = props;
+
+    // const { mode } = useMode();
+
+    // useLayoutEffect(() => {
+    //     if (title === "Macarrão mediterrâneo") console.log("componentWillMount");
+    // }, [title]);
+
+    // useEffect(() => {
+    //     if (title === "Macarrão mediterrâneo") console.log("componentDidMount");
+    // }, [title]);
+
+    // useEffect(() => {
+    //     if (title === "Macarrão mediterrâneo") console.log("componentDidUpdate", mode);
+    // }, [title, mode]);
+
+    // useEffect(() => {
+    //     return () => {
+    //         if (title === "Macarrão mediterrâneo") console.log("componentWillUnmount");
+    //     }
+    // }, [title]);
 
     return (
         <div className={styles.item}>
