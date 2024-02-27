@@ -18,14 +18,12 @@ export default function Menu() {
             <Logo width={100} height={100} />
             <ul className={styles.menu__list}>
                 {rotas.map((rota, index) => (
-                    <li key={index}>
-                        <Link to={rota.to} className={styles.menu__link}>
+                    <li key={index} className={styles.menu__link}>
+                        <Link to={rota.to}>
                             {rota.label}
                         </Link>
                     </li>
-                ))
-
-                }
+                ))}
             </ul>
         </nav>
     );

@@ -10,6 +10,7 @@ export default function AppRouter() {
             <Router>
                 <Menu />
                 <Routes>
+                    {/* abaixo exemplo de Nested Routes */}
                     <Route path='/' element={<PaginaPadrao />}>
                         <Route index element={<Inicio />}/>
                         <Route path='cardapio' element={<Cardapio />} />
