@@ -11,21 +11,21 @@ export default function Item(props: Props) {
     // const { mode } = useMode();
 
     // useLayoutEffect(() => {
-    //     if (title === "Macarrão mediterrâneo") console.log("componentWillMount");
+    //     if (title === 'Macarrão mediterrâneo') console.log('componentWillMount');
     // }, [title]);
 
     // useEffect(() => {
-    //     if (title === "Macarrão mediterrâneo") console.log("componentDidMount");
+    //     if (title === 'Macarrão mediterrâneo') console.log('componentDidMount');
     // }, [title]);
 
     // useEffect(() => {
-    //     if (title === "Macarrão mediterrâneo") console.log("componentDidUpdate", mode);
+    //     if (title === 'Macarrão mediterrâneo') console.log('componentDidUpdate', mode);
     // }, [title, mode]);
 
     // useEffect(() => {
     //     return () => {
-    //         if (title === "Macarrão mediterrâneo") console.log("componentWillUnmount");
-    //     }
+    //         if (title === 'Macarrão mediterrâneo') console.log('componentWillUnmount');
+    //     };
     // }, [title]);
 
     return (
