@@ -13,6 +13,7 @@ export default function NotFound() {
         })}>
             <div className={styles.voltar}>
                 {/* abaixo uso do navigate(-1) para retornar para tela anterior */}
+                {/* goBack (equivalente ao navigate(-1)) e goForward (equivalente ao navigate(1)) */}
                 <button onClick={() => navigate(-1)}>
                     {'< Voltar'}
                 </button>
