@@ -11,8 +11,8 @@ export default function Inicio() {
 
 
     function redirecionarParaDetalhes(prato: typeof cardapio[0]) {
-        //utiliza replace para não ter histórico
-        navigate(`/prato/${prato.id}`, { state: { ...prato }, replace: true });
+        //utiliza replace para Substituir a última rota do histórico pela rota passada como primeiro parâmetro para a função
+        navigate(`/prato/${prato.id}`, { state: { prato }, replace: true });
     }
 
     return (
